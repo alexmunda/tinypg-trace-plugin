@@ -2,10 +2,23 @@
   "name": "tinypg-trace-plugin",
   "version": "1.0.0",
   "description": "StackDriver Trace plugin for TinyPg",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": "https://github.com/alexmunda/tinypg-trace-plugin.git",
+  "homepage": "https://github.com/alexmunda/tinypg-trace-plugin",
   "author": "Alex Munda <alex.munda3@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "keywords": [
+    "postgres",
+    "pg",
+    "tinypg",
+    "sql",
+    "stackdriver",
+    "trace"
+  ],
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rimraf './dist/' './src/**/*.js' './src/**/*.map'",
