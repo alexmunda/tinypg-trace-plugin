@@ -1,0 +1,34 @@
+{
+   "compilerOptions": {
+       "declaration": true,
+       "target": "ES6",
+       "module": "commonjs",
+       "sourceMap": true,
+       "moduleResolution": "node",
+       "preserveConstEnums": true,
+       "removeComments": true,
+       "noImplicitReturns": true,
+       "pretty": true,
+       "allowJs": false,
+       "allowUnreachableCode": false,
+       "forceConsistentCasingInFileNames": true,
+       "noFallthroughCasesInSwitch": true,
+       "noUnusedLocals": true,
+       "noUnusedParameters": true,
+       "noImplicitAny": false,
+       "noImplicitThis": true,
+       "allowUnusedLabels": false,
+       "strict": true,
+       "strictNullChecks": false,
+       "outDir": "dist"
+   },
+   "compileOnSave": false,
+   "files": [
+       "./src/index.ts"
+   ],
+   "exclude": [
+       "node_modules",
+       ".vscode",
+       "dist"
+   ]
+}

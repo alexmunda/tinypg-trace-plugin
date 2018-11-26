@@ -1,0 +1,8 @@
+node_modules/
+dist/
+yarn-error.log
+npm-debug.log
+*.map
+*.d.ts
+src/**/*.js
+src/**/*.map

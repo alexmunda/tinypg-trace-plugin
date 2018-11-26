@@ -1,0 +1,27 @@
+{
+  "name": "tinypg-trace-plugin",
+  "version": "1.0.0",
+  "description": "StackDriver Trace plugin for TinyPg",
+  "main": "index.js",
+  "repository": "https://github.com/alexmunda/tinypg-trace-plugin.git",
+  "author": "Alex Munda <alex.munda3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf './dist/' './src/**/*.js' './src/**/*.map'",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "lodash": "4.17.11",
+    "shimmer": "1.2.0"
+  },
+  "devDependencies": {
+    "@google-cloud/trace-agent": "^3.3.1",
+    "@types/lodash": "^4.14.118",
+    "@types/pg": "^7.4.11",
+    "pg": "^7.4.1",
+    "rimraf": "^2.6.2",
+    "tinypg": "^4.0.0",
+    "typescript": "^3.1.6"
+  }
+}
